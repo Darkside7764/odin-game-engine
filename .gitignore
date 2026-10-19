@@ -1,0 +1,29 @@
+# Build outputs
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Odin
+*.o
+*.obj
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,19 @@
+{
+  "name": "odin-game-engine",
+  "version": "0.1.0",
+  "description": "A modern game engine built with Odin",
+  "license": "MIT",
+  "authors": ["Darkside7764"],
+  "dependencies": {},
+  "minimum_odin_version": "dev-2024-08",
+  "build_configs": {
+    "debug": {
+      "debug": true,
+      "optimization": "none"
+    },
+    "release": {
+      "debug": false,
+      "optimization": "speed"
+    }
+  }
+}
